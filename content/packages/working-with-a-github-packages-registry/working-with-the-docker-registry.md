@@ -145,6 +145,7 @@ For more information, see "[Docker login](https://docs.docker.com/engine/referen
 4. Publish the image to {% data variables.product.prodname_registry %}.
   {% ifversion fpt or ghec %}
   ```shell
+  
   $ docker push docker.pkg.github.com/<em>OWNER/REPOSITORY/IMAGE_NAME:VERSION</em>
   ```
   {% else %}
